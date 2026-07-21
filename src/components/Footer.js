@@ -13,8 +13,7 @@ export default function Footer() {
             <strong>{clinic.name}</strong>
           </div>
           <p className="footer-blurb">
-            {clinic.tagline}. Caring for families with gentle, honest dentistry
-            and approachable treatment.
+            {clinic.tagline}. Dedicated clinical skincare, aesthetic enhancements, and advanced hair restoration.
           </p>
         </div>
 
@@ -56,8 +55,8 @@ export default function Footer() {
           &copy; {new Date().getFullYear()} {clinic.name}. All rights reserved.
         </p>
         <p className="footer-disclaimer">
-          This website shares general dental information only and is not a
-          substitute for personal advice from a qualified dentist.
+          This website shares general skin and hair care information only and is not a
+          substitute for personal advice from a qualified dermatologist.
         </p>
       </div>
     </footer>

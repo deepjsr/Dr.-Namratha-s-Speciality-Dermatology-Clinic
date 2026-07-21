@@ -8,10 +8,10 @@ import ViewTransitions from './components/ViewTransitions';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
-import GeneralDentistry from './pages/GeneralDentistry';
-import CosmeticDentistry from './pages/CosmeticDentistry';
-import Orthodontics from './pages/Orthodontics';
-import EmergencyCare from './pages/EmergencyCare';
+import ClinicalDermatology from './pages/ClinicalDermatology';
+import CosmeticDermatology from './pages/CosmeticDermatology';
+import TrichologyHair from './pages/TrichologyHair';
+import SkinProcedures from './pages/SkinProcedures';
 import Testimonials from './pages/Testimonials';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
@@ -33,10 +33,10 @@ export default function App() {
               <Route path="/home" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/services" element={<Services />} />
-              <Route path="/services/general-dentistry" element={<GeneralDentistry />} />
-              <Route path="/services/cosmetic-dentistry" element={<CosmeticDentistry />} />
-              <Route path="/services/orthodontics" element={<Orthodontics />} />
-              <Route path="/services/emergency" element={<EmergencyCare />} />
+              <Route path="/services/clinical-dermatology" element={<ClinicalDermatology />} />
+              <Route path="/services/cosmetic-dermatology" element={<CosmeticDermatology />} />
+              <Route path="/services/hair-treatments" element={<TrichologyHair />} />
+              <Route path="/services/skin-procedures" element={<SkinProcedures />} />
               <Route path="/testimonials" element={<Testimonials />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="*" element={<NotFound />} />

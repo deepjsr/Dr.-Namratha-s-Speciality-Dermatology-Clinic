@@ -9,8 +9,8 @@ export default function Services() {
     <>
       <PageHero
         eyebrow="Our Services"
-        title="Everything your smile needs"
-        intro="From routine cleaning to whitening, aligners and emergency relief, here’s the care we provide — grouped so you can find the right help fast."
+        title="Advanced care for skin and hair"
+        intro="From clinical dermatology and aesthetic rejuvenation to trichology and minor skin procedures, find the specialized care you need to restore your skin and hair health."
       />
 
       <section className="section section-tight-top">
@@ -35,9 +35,9 @@ export default function Services() {
           <div className="note" role="note" style={{ marginTop: '2.5rem' }}>
             <Icon name="warning" />
             <span>
-              <strong>In dental pain right now?</strong> {clinic.emergency} For
-              severe toothache, swelling or a broken tooth, see our{' '}
-              <Link to="/services/emergency">emergency dental care</Link> page.
+              <strong>Have a sudden skin flare or allergy?</strong> {clinic.emergency} Learn more about our{' '}
+              <Link to="/services/clinical-dermatology">clinical dermatology</Link> and{' '}
+              <Link to="/services/skin-procedures">procedures</Link>.
             </span>
           </div>
         </div>

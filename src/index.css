@@ -1,38 +1,39 @@
 :root {
-  --teal-50: #f0fdfa;
-  --teal-100: #ccfbf1;
-  --teal-200: #99f6e4;
-  --teal-500: #14b8a6;
-  --teal-600: #0d9488;
-  --teal-700: #0f766e;
-  --teal-800: #115e59;
+  /* Premium Slate, Sage, and Warm Gold/Rose gold for Skin & Hair care */
+  --teal-50: #f5f8f7; /* Very light sage-slate tint */
+  --teal-100: #e2ebe9; /* Light sage */
+  --teal-200: #c1d4d0; /* Muted sage-teal */
+  --teal-500: #668c84; /* Sage teal mid */
+  --teal-600: #4a7068; /* Forest sage */
+  --teal-700: #2c4a43; /* Deep emerald-slate */
+  --teal-800: #1c322d; /* Very deep slate */
 
-  --blue-50: #eff6ff;
-  --blue-600: #2563eb;
-  --blue-700: #1d4ed8;
+  --blue-50: #faf7f5; /* Creamy beige */
+  --blue-600: #c89d7c; /* Gold/Bronze accent */
+  --blue-700: #a87e5d; /* Deep gold/bronze */
 
-  --ink-900: #0f172a;
-  --ink-800: #1e293b;
-  --ink-700: #334155;
-  --ink-500: #64748b;
-  --ink-400: #94a3b8;
+  --ink-900: #1e252b; /* Soft dark slate */
+  --ink-800: #2d3840;
+  --ink-700: #455460;
+  --ink-500: #6b7e8d;
+  --ink-400: #93a6b5;
 
-  --bg: #f8fafc;
+  --bg: #fdfdfd;
   --surface: #ffffff;
-  --border: #e2e8f0;
-  --warm: #fef3c7;
-  --warm-border: #fde68a;
+  --border: #e6edeb;
+  --warm: #faf0e6; /* Soft linen */
+  --warm-border: #ebd3bc;
 
-  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
-  --shadow-md: 0 6px 20px rgba(15, 23, 42, 0.08);
-  --shadow-lg: 0 16px 40px rgba(15, 23, 42, 0.10);
+  --shadow-sm: 0 1px 2px rgba(30, 40, 45, 0.04);
+  --shadow-md: 0 6px 20px rgba(30, 40, 45, 0.06);
+  --shadow-lg: 0 16px 40px rgba(30, 40, 45, 0.08);
 
   --radius: 16px;
   --radius-sm: 10px;
   --maxw: 1120px;
 
-  --font: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, Roboto,
-    Helvetica, Arial, sans-serif;
+  --font: "Plus Jakarta Sans", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
 }
 
 * {
@@ -54,11 +55,19 @@ body {
 }
 
 h1,
-h2,
-h3,
-h4 {
+h2 {
+  font-family: var(--font-serif);
   color: var(--ink-900);
   line-height: 1.2;
+  margin: 0 0 0.5em;
+  font-weight: 700;
+}
+
+h3,
+h4 {
+  font-family: var(--font);
+  color: var(--ink-900);
+  line-height: 1.25;
   margin: 0 0 0.5em;
   font-weight: 700;
 }
@@ -153,6 +162,7 @@ ul {
   cursor: pointer;
   transition: transform 0.15s ease, background 0.15s ease, box-shadow 0.15s ease;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .btn:hover {

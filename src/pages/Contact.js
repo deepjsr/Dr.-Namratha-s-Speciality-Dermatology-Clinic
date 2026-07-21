@@ -5,10 +5,10 @@ import Icon from '../components/Icon';
 import { clinic } from '../data/site';
 
 const reasons = [
-  'Check-up & cleaning',
-  'Cosmetic (whitening, veneers, etc.)',
-  'Braces / clear aligners',
-  'Dental emergency / pain',
+  'Clinical Skin Consultation',
+  'Aesthetic / Cosmetic Dermatology',
+  'Hair & Scalp Treatments (PRP)',
+  'Minor Skin Procedure (Warts/Moles)',
   'General enquiry',
 ];
 
@@ -33,8 +33,8 @@ export default function Contact() {
     <>
       <PageHero
         eyebrow="Contact & Booking"
-        title="Let’s get your smile booked in"
-        intro="Book an appointment, ask a question, or just let us know you’re coming. We’ll respond as quickly as we can."
+        title="Schedule your consultation"
+        intro="Book an appointment, ask a question, or request a callback. Dr. Namratha and our team will get back to you as soon as possible."
       />
 
       <section className="section section-tight-top">
@@ -58,7 +58,7 @@ export default function Contact() {
                   <Icon name="map" size={20} />
                 </span>
                 <div>
-                  <strong>Visit</strong>
+                  <strong>Visit Us</strong>
                   <a href={clinic.mapsUrl} target="_blank" rel="noreferrer">
                     {clinic.address}
                   </a>
@@ -129,7 +129,7 @@ export default function Contact() {
                     required
                     value={form.name}
                     onChange={update}
-                    placeholder="e.g. A. Rahman"
+                    placeholder="e.g. Dinesh Kumar"
                   />
                 </label>
 
@@ -142,7 +142,7 @@ export default function Contact() {
                     required
                     value={form.phone}
                     onChange={update}
-                    placeholder="e.g. +91 00000 00000"
+                    placeholder="e.g. +91 99999 99999"
                   />
                 </label>
 
@@ -170,7 +170,7 @@ export default function Contact() {
                     rows="4"
                     value={form.message}
                     onChange={update}
-                    placeholder="Briefly describe your concern…"
+                    placeholder="Briefly describe your skin or hair concern…"
                   />
                 </label>
 

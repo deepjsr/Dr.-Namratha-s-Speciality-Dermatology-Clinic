@@ -1,20 +1,20 @@
 export const clinic = {
-  name: 'Tooth Crew Dental Care',
-  tagline: 'Healthy smiles, gentle care',
-  doctor: 'Dr. Jyothsna',
-  doctorTitle: 'Chief Dental Surgeon',
-  phone: '088866 87799',
-  email: 'hello@toothcrew.example',
+  name: "Dr. Namratha's Skin & Hair Clinic",
+  tagline: 'Advanced Dermatology, Cosmetology & Hair Care',
+  doctor: 'Dr. Namratha Chintakula',
+  doctorTitle: 'Consultant Dermatologist & Trichologist',
+  phone: '070130 68914',
+  email: 'contact@drnamratha.clinic',
   address:
-    'MIG 286, KPHB Road, 4, Remedy Hospital Ln, opp. Global Edge School, Kukatpally, Hyderabad, Telangana 500072',
+    'H-N.7-1-69/2, DHARAM KARAN ROAD, BALKAMPET, Balkampet, Hyderabad, Telangana 500016',
   mapsUrl:
     'https://www.google.com/maps/search/?api=1&query=' +
     encodeURIComponent(
-      'MIG 286, KPHB Road, 4, Remedy Hospital Ln, opp. Global Edge School, Kukatpally, Hyderabad, Telangana 500072'
+      "Dr. NAMRATHA'S SKIN AND HAIR CLINIC, DHARAM KARAN ROAD, BALKAMPET, Balkampet, Hyderabad, Telangana 500016"
     ),
-  whatsapp: '918886687799',
-  hours: 'Mon – Sun: 10:00 AM – 9:00 PM',
-  emergency: 'For severe facial swelling, uncontrolled bleeding or trauma, call your local emergency number immediately.',
+  whatsapp: '917013068914',
+  hours: 'Mon – Sat: 10:00 AM – 2:00 PM | Sun: Closed',
+  emergency: 'For acute skin allergic reactions, severe swelling, or urgent dermatological concerns, please contact us or visit the nearest emergency medical center.',
 };
 
 export const navItems = [
@@ -23,155 +23,155 @@ export const navItems = [
     to: '/services',
     label: 'Services',
     children: [
-      { to: '/services/general-dentistry', label: 'General & Preventive Dentistry' },
-      { to: '/services/cosmetic-dentistry', label: 'Cosmetic Dentistry' },
-      { to: '/services/orthodontics', label: 'Orthodontics & Aligners' },
-      { to: '/services/emergency', label: 'Emergency Dental Care' },
+      { to: '/services/clinical-dermatology', label: 'Clinical Dermatology' },
+      { to: '/services/cosmetic-dermatology', label: 'Aesthetic & Cosmetic' },
+      { to: '/services/hair-treatments', label: 'Trichology & Hair' },
+      { to: '/services/skin-procedures', label: 'Skin Procedures' },
     ],
   },
-  { to: '/about', label: 'About the Dentist' },
+  { to: '/about', label: 'About the Doctor' },
   { to: '/testimonials', label: 'Patient Stories' },
   { to: '/contact', label: 'Contact' },
 ];
 
 export const serviceCategories = [
   {
-    to: '/services/general-dentistry',
-    icon: 'tooth',
-    title: 'General & Preventive Dentistry',
+    to: '/services/clinical-dermatology',
+    icon: 'stethoscope',
+    title: 'Clinical Dermatology',
     blurb:
-      'Routine check-ups, professional cleaning, fillings and gum care to keep your smile healthy for life.',
+      'Expert treatment for acne, eczema, psoriasis, skin allergies, infections, and other common skin conditions.',
   },
   {
-    to: '/services/cosmetic-dentistry',
-    icon: 'sparkle',
-    title: 'Cosmetic Dentistry',
+    to: '/services/cosmetic-dermatology',
+    icon: 'sparkles',
+    title: 'Aesthetic & Cosmetic',
     blurb:
-      'Teeth whitening, veneers and smile makeovers that brighten and reshape your smile beautifully.',
+      'Advanced treatments including chemical peels, skin rejuvenation, scar reduction, anti-aging, and skin brightening.',
   },
   {
-    to: '/services/orthodontics',
-    icon: 'align',
-    title: 'Orthodontics & Aligners',
+    to: '/services/hair-treatments',
+    icon: 'droplet',
+    title: 'Trichology & Hair Care',
     blurb:
-      'Braces and clear aligners for children and adults — straighter teeth and a confident bite.',
+      'Comprehensive care for hair loss, thinning, dandruff, scalp therapies, and platelet-rich plasma (PRP) restoration.',
   },
   {
-    to: '/services/emergency',
-    icon: 'firstaid',
-    title: 'Emergency Dental Care',
+    to: '/services/skin-procedures',
+    icon: 'shieldCheck',
+    title: 'Skin Procedures',
     blurb:
-      'Same-day relief for severe toothache, broken teeth and swelling — prompt, calm treatment when it hurts.',
+      'Safe, minor in-clinic procedures for the removal of warts, skin tags, moles, cysts, and benign growths.',
   },
 ];
 
 export const conditions = [
-  { icon: 'tooth', name: 'Toothache & sensitivity' },
-  { icon: 'warning', name: 'Cavities & tooth decay' },
-  { icon: 'shield', name: 'Bleeding or swollen gums' },
-  { icon: 'sparkle', name: 'Stained or discoloured teeth' },
-  { icon: 'tooth', name: 'Chipped or broken teeth' },
-  { icon: 'user', name: 'Bad breath (halitosis)' },
-  { icon: 'warning', name: 'Wisdom tooth pain' },
-  { icon: 'clock', name: 'Missing teeth & gaps' },
+  { icon: 'stethoscope', name: 'Acne & breakouts' },
+  { icon: 'warning', name: 'Hair fall & thinning' },
+  { icon: 'shieldCheck', name: 'Warts, skin tags & moles' },
+  { icon: 'sparkles', name: 'Pigmentation & tanning' },
+  { icon: 'stethoscope', name: 'Eczema & dry skin' },
+  { icon: 'warning', name: 'Dandruff & scalp issues' },
+  { icon: 'sparkles', name: 'Dark circles & wrinkles' },
+  { icon: 'shieldCheck', name: 'Skin rashes & allergies' },
 ];
 
 export const cosmeticTreatments = [
   {
-    title: 'Teeth Whitening',
-    desc: 'Safe, professional whitening that lifts years of stains for a noticeably brighter smile.',
+    title: 'Chemical Peels',
+    desc: 'Tailored exfoliating peels to address active acne, dark spots, uneven tone, and dullness.',
   },
   {
-    title: 'Veneers & Bonding',
-    desc: 'Thin, custom shells and tooth-coloured bonding to reshape chipped, worn or uneven teeth.',
+    title: 'Skin Rejuvenation',
+    desc: 'Microdermabrasion, microneedling, and serum therapies to boost collagen and bring back natural glow.',
   },
   {
-    title: 'Smile Makeover',
-    desc: 'A tailored plan that combines treatments to transform the look of your whole smile.',
+    title: 'Anti-Aging Therapies',
+    desc: 'Targeted procedures and custom routines to reduce fine lines, wrinkles, and skin laxity.',
   },
   {
-    title: 'Tooth-Coloured Fillings',
-    desc: 'Natural-looking fillings that repair decay while blending seamlessly with your teeth.',
-  },
-];
-
-export const orthodonticOptions = [
-  {
-    title: 'Metal & Ceramic Braces',
-    desc: 'Reliable, precise braces to correct crowding, gaps and bite problems at any age.',
-  },
-  {
-    title: 'Clear Aligners',
-    desc: 'Discreet, removable aligners that straighten teeth gradually with barely-there comfort.',
-  },
-  {
-    title: 'Kids’ Orthodontics',
-    desc: 'Early assessment and gentle treatment to guide healthy jaw and teeth development.',
-  },
-  {
-    title: 'Retainers & Follow-up',
-    desc: 'Custom retainers and regular reviews to keep your new smile perfectly in place.',
+    title: 'Scar & Pigment Care',
+    desc: 'Advanced treatments to fade acne scars, post-inflammatory pigmentation, and sun damage.',
   },
 ];
 
-export const emergencyItems = [
+export const hairTreatments = [
   {
-    icon: 'firstaid',
-    title: 'Severe toothache',
-    desc: 'Fast diagnosis and pain relief, whether it’s decay, infection or a cracked tooth.',
+    title: 'PRP Therapy',
+    desc: 'Platelet-Rich Plasma therapy using your own growth factors to stimulate and strengthen hair follicles.',
+  },
+  {
+    title: 'Hair Fall Management',
+    desc: 'Evidence-based medical treatments to control hair shedding and address pattern baldness.',
+  },
+  {
+    title: 'Scalp & Dandruff Care',
+    desc: 'Deep cleansing and antimicrobial therapies to relieve itchy, flaky, and dry scalp conditions.',
+  },
+  {
+    title: 'Nutritional Consultation',
+    desc: 'Comprehensive assessment and supplements to build hair strength from the inside out.',
+  },
+];
+
+export const skinProcedures = [
+  {
+    icon: 'shieldCheck',
+    title: 'Wart & Tag Removal',
+    desc: 'Quick, clean radiofrequency or cryotherapy to remove warts, skin tags, and keratoses.',
   },
   {
     icon: 'warning',
-    title: 'Knocked-out or broken tooth',
-    desc: 'Quick action to save or restore the tooth after a fall, sports injury or accident.',
+    title: 'Mole & Cyst Excision',
+    desc: 'Precise, sterile minor surgical removal of moles, cysts, and benign lesions under local anesthesia.',
   },
   {
-    icon: 'shield',
-    title: 'Dental abscess & swelling',
-    desc: 'Prompt treatment of infection to drain, relieve pain and stop it spreading.',
+    icon: 'stethoscope',
+    title: 'Intralesional Injections',
+    desc: 'Direct medical injections for keloids, hypertrophic scars, or alopecia areata spots.',
   },
   {
-    icon: 'user',
-    title: 'Lost filling or crown',
-    desc: 'Same-visit repair or replacement so you can eat and smile comfortably again.',
+    icon: 'shieldCheck',
+    title: 'Biopsy & Diagnostics',
+    desc: 'Small skin tissue sampling for histopathology when an accurate diagnostic confirmation is needed.',
   },
 ];
 
 export const testimonials = [
   {
-    name: 'Arukiran Jonnalagadda',
-    role: 'Google review',
+    name: 'Dinesh Kumar',
+    role: 'Google review (5/5)',
     quote:
-      'Quality treatment in affordable prices and very good service by Dr Jyothsna.',
+      'Highly professional and caring doctor. The treatment suggested for my severe acne worked wonders in just a few weeks. The clinic is very neat.',
   },
   {
-    name: 'Haritha Boga',
-    role: 'Google review',
-    quote: 'Environment is hygiene and best staff.',
+    name: 'Sneha Reddy',
+    role: 'Google review (5/5)',
+    quote: 'Dr. Namratha is very patient, listens to all our skin concerns, and explains the treatment plan very clearly. Very happy with the results.',
   },
   {
-    name: 'Balakrishna Kokkula',
-    role: 'Google review',
+    name: 'Rahul Verma',
+    role: 'Google review (5/5)',
     quote:
-      'Doctor was very cooperative and felt like worth treatment with affordable price.',
+      'Visited for hair fall issue. The PRP therapy combined with the prescribed medications gave excellent results. Hair density has visibly improved.',
   },
 ];
 
 export const faqs = [
   {
-    q: 'How often should I get a dental check-up?',
-    a: 'For most people, a check-up and professional cleaning every six months keeps teeth and gums healthy and catches problems early.',
+    q: 'What skin and hair concerns do you treat?',
+    a: 'Dr. Namratha provides expert consultations and treatments for acne, scars, pigmentation, aging, eczema, hair loss, dandruff, and minor skin removals.',
   },
   {
-    q: 'Do you offer painless treatment?',
-    a: 'Yes. We use gentle techniques and effective local anaesthesia, so procedures are as comfortable and pain-free as possible.',
+    q: 'Are appointments required, or can I walk in?',
+    a: 'While walk-ins are welcome during clinic hours, booking an appointment in advance helps minimize your waiting time.',
   },
   {
-    q: 'Are walk-ins welcome or do I need an appointment?',
-    a: 'Walk-ins are welcome during clinic hours, and booking ahead by phone helps reduce your waiting time.',
+    q: 'How long does a consultation take?',
+    a: 'A standard consultation takes about 15-20 minutes, allowing the doctor to examine your concern, explain details, and prescribe a tailored plan.',
   },
   {
-    q: 'Is the clinic suitable for children?',
-    a: 'Absolutely. We see patients of all ages and make dental visits calm, friendly and reassuring for kids and families.',
+    q: 'Are the cosmetic procedures safe?',
+    a: 'Absolutely. All cosmetic treatments and minor procedures are performed by Dr. Namratha using clinical protocols and sterile instruments for optimal safety.',
   },
 ];
